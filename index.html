@@ -1,0 +1,17 @@
+
+<Doctype html>
+<html>
+<body>
+<button>Open Dialog</button>
+<dialog>
+  <h1>Hi, Im The Dialog</h1>
+  <button>Close Dialog</button>
+</dialog>
+
+<script>
+  document.querySelector("button").addEventListener("click", (e) => {
+  document.querySelector("dialog").showModal();
+});
+</script>
+</body>
+</html>
